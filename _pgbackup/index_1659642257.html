@@ -216,7 +216,7 @@ jqueryParams.length&&$.each(jqueryParams,function(e,r){if("function"==typeof r){
                                                             <textarea name="message"></textarea> 
                                                         </label>                                                         
                                                         <!-- your other form fields go here -->                                                         
-                                                        <button type="submit">ENVIAR</button>                                                         
+                                                        <button type="submit">Send</button>                                                         
                                                     </form>
                                                 </div>
                                             </div>
@@ -229,6 +229,18 @@ jqueryParams.length&&$.each(jqueryParams,function(e,r){if("function"==typeof r){
                                                                     <p role="status" aria-live="polite" aria-atomic="true"></p> 
                                                                     <ul></ul>
                                                                 </div>
+                                                                <form action="https://formspree.io/f/xrgjneyn" method="post" class="wpcf7-form">
+                                                                    <p><label> Seu e-mail<br/>
+                                                                            <span data-name="your-email"><input type="email" name="email" value="" size="40" class="wpcf7-text" aria-invalid="false"/></span> 
+                                                                        </label></p>
+                                                                    <p><label> Seu telefone (com DDD)<br/>
+                                                                            <span data-name="tel-214"><input type="text" name="message" value="" size="40" class="wpcf7-text" aria-invalid="false"/></span> 
+                                                                        </label></p>
+                                                                    <p><label> Nos conta sobre sua ideia ou faça uma pergunta<br/>
+                                                                            <span data-name="your-message"><textarea name="message" cols="40" rows="10" class="wpcf7-textarea" aria-invalid="false"></textarea></span> 
+                                                                        </label></p>
+                                                                    <p><input type="submit" value="Enviar" class="has-spinner wpcf7-submit"/></p>
+                                                                </form>
                                                             </div>
                                                         </div>
                                                     </div>
