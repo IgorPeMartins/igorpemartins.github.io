@@ -2,7 +2,7 @@ title:              Somewhatcode
 email:              your-email@example.com
 description:        A place for building real projects using low-code tools
 author:             Igor Martins
-baseurl:            "/"
+baseurl:            ""
 url:                "https://somewhatcode.com"
 
 # Social Profiles
